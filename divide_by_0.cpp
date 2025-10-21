@@ -5,6 +5,6 @@ int main(){
     int divide = 0;
     cout << "Enter number to divide" << endl;
     cin >> divide;
-    cout << " " << divide/2;
+    cout << " " << divide/0;
     return 0;
 }
