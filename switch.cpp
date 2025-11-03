@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-    char num = 'c';
+    // char num = 'c';
+    int num = 20;
     switch(num % 2) {
         case 0:
             cout << "number is even" << endl;
