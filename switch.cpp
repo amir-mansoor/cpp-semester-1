@@ -48,33 +48,33 @@ using namespace std;
 //     return 0;
 // }
 
-// int main(){
-// 	int marks;
-// 	cout << "Enter marks (0-100): ";
-// 	cin >> marks;
+int main(){
+	int marks;
+	cout << "Enter marks (0-100): ";
+	cin >> marks;
 
-//     cout << marks / 10 << endl;
+    cout << marks / 10 << endl;
 
-//     switch(marks / 10) {
-//         case 10:
-//         case 9:
-//         case 8:
-//             cout << "Grade A" << endl;
-//             break;
-//         case 7:
-//             cout << "Grade B" << endl;
-//             break;
-//         case 6:
-//             cout << "Grade C" << endl;
-//             break;
-//         case 5:
-//             cout << "Grade D" << endl;
-//             break;
-//         default:
-//             cout << "Grade F" << endl;
-//     }
-//     return 0;
-// }
+    switch(marks / 10) {
+        case 10:
+        case 9:
+        case 8:
+            cout << "Grade A" << endl;
+            break;
+        case 7:
+            cout << "Grade B" << endl;
+            break;
+        case 6:
+            cout << "Grade C" << endl;
+            break;
+        case 5:
+            cout << "Grade D" << endl;
+            break;
+        default:
+            cout << "Grade F" << endl;
+    }
+    return 0;
+}
 
 
 

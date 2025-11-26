@@ -12,10 +12,5 @@ int main() {
         cout << "The number is negative" << endl;
     }
 
-    if(number % 2 == 0) {
-        cout << "The number is even" << endl;
-    } else {
-        cout << "The number is odd" << endl;
-    }
     return 0;
 }
